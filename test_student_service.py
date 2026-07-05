@@ -9,7 +9,7 @@ def service():
 
 
 def test_register_student(service):
-    result = service.register_student("John", "0711111111")
+    result = service.register_student("John", "")
 
     assert result is True
     assert len(service.students) == 1
